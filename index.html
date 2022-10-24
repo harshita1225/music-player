@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/00fd5efc4c.js" crossorigin="anonymous"></script>
+    <title>Neumorphic Music Player</title>
+</head>
+<body>
+    <section class="main-container">
+        <section class="header">
+            <div class="search">
+                <div class="icons">
+                    <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                </div>
+            </div>
+            <div><h1>My Playlist</h1></div>
+            <div class="open">
+                <div class="icons">
+                    <i class="fa-solid fa-power-off fa-2x"></i>
+                <div>
+            </div>
+        </section>
+       
+
+       
+        <section class="track">
+           
+            <div class="track-img">
+                <img src="/images/ukulele.jpg" id="img">
+            </div>
+            <div>
+                <h2 id="track-num">Radio City 91.1</h2>
+                <h3 id="title">Artist</h3>
+            </div>
+        </section>
+        <div class="loading">
+            <div class="loading-gradient"></div>
+        </div>
+        <section class="play-bar">
+            <div class="back">
+                <div class="icons">
+                    <i class="fa-solid fa-backward fa-2x"></i>
+                </div>
+            </div>
+            <div class="play">
+                <div class="icons">
+                    <i class="fa-solid fa-play fa-2x" id="p"></i>
+                </div>
+            </div>
+           
+            <div class="forward">
+                <div class="icons">
+                    <i class="fa-solid fa-forward fa-2x"></i>
+                </div>
+            </div>
+        </section>
+        <div class="footer"></div>
+        <audio src="music/ukulele.mp3" id="audio"></audio>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
