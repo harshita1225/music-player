@@ -4,7 +4,7 @@ Create beautiful UI to play music stored in the "music folder" using the HTML5 a
 
 ## Link
 
-- Live Site URL: [https://harshita1225.github.io/nature-tours/](https://harshita1225.github.io/nature-tours/)
+- Live Site URL: [https://harshita1225.github.io/music-player/](https://harshita1225.github.io/music-player/)
 
 ### The challenge
 
